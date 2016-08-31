@@ -71,7 +71,7 @@ public class MyPanelClass extends JPanel {
                        Polygon p3 = new Polygon();
                        
                        p3.addPoint(x1,y1);
-                       p3.addPoint(x1+250, y1+170);
+                       p3.addPoint(x1+250, y1+125);
                        p3.addPoint(x1, y2);
                        g.setColor(Color.BLUE);
                        g.fillPolygon(p3);
